@@ -19,7 +19,7 @@ forMulario.addEventListener("submit", (event) =>{
         mostrarMensaje.style.display = 'block';
 
         setTimeout(function(){foRmulario.submit();}, 2000);
-        window.open('../index.html','_blank');
+        window.open('/E-commerce/index.html','_blank');
     }).catch((error) => console.error(error));
 
 });

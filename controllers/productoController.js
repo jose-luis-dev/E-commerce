@@ -11,7 +11,7 @@ const crearNuevaLista = (nombreProducto, precio, imagenUrl, categoria, id) => {
             <img src="${imagenUrl}" alt="producto">
             <span class="mod">
                 <button href="#" title="Borrar" data-btn type="button" id="${id}"><i class="material-symbols-outlined borrar">delete</i></button>
-                <a href="../screens/editarProducto.html?id=${id}" title="Editar"><i class="material-symbols-outlined editar">edit</i></a>
+                <a href="/E-commerce/screens/editarProducto.html?id=${id}" title="Editar"><i class="material-symbols-outlined editar">edit</i></a>
             </span>
         </div>
         <article class="info-items">

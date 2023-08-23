@@ -8,7 +8,7 @@ forMulario.addEventListener('submit', function(e){
     const password = document.querySelector('[data-tipo="password"]').value;
     clientService.login(email, password).then((respuesta)=>{
         if(respuesta && respuesta.autenticado){
-            window.location.href = "../screens/admin.html";
+            window.location.href = "/E-commerce/screens/admin.html";
         }else{
             const mensajeError = document.querySelector('.form-mensaje-error');
             mensajeError.style.display = 'block';

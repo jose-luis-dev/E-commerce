@@ -11,7 +11,7 @@ uregistro.addEventListener("submit", (event) =>{
 
     clientService.crearUsuario(email, contrasena)
         .then(respuesta =>{
-            window.location.href = "../screens/registroCompletado.html";
+            window.location.href = "/E-commerce/screens/registroCompletado.html";
         }).catch( err => console.log(err));
 
 });

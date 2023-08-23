@@ -75,57 +75,57 @@
     {
       "nombre": "Mochila escolar barbie",
       "precio": 725,
-      "imagen": "./assets/img/productos/Escolar/mochila-escolar.jpg",
+      "imagen": "https://www.officedepot.com.mx/medias/100144204.jpg-515ftw?context=bWFzdGVyfHJvb3R8MTIzOTE5fGltYWdlL2pwZWd8aDczL2gyYy8xMTk5NjA4OTA1NzMxMC8xMDAxNDQyMDQuanBnXzUxNWZ0d3w3N2NhMGNkYWEzODk2ZTJjODEwY2FjMjRkMGM4N2VmZDY0NzIzZGJkZmEwNDlhNjdlOWI3YWQ2NjQ3Zjk3MGFm",
       "categoria": "Escuelas",
-      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "descripcion": "Disfruta de tus mejores pasos dancísticos al ritmo de la Mochila Escolar Barbie Ballet. Te ofrecerá un hermoso diseño multicolor que presenta a Barbie",
       "id": 7
     },
     {
       "nombre": "Mochila miquelrius puppies",
       "precio": 729,
-      "imagen": "./assets/img/productos/Escolar/mochila-koala.jpg",
+      "imagen": "https://www.officedepot.com.mx/medias/100154621-3.jpg-1200ftw?context=bWFzdGVyfHJvb3R8NDg0Mjg0fGltYWdlL2pwZWd8aDE4L2gyOS8xMjAyMzcyODQ3MjA5NC8xMDAxNTQ2MjEtMy5qcGdfMTIwMGZ0d3w5ZGE3YTI4ZDhkYjM5MjFkNDdiODQwZjAwM2U4MjBlYTkxMDY1ZGU3M2NhNWJiYjYwODRmMzkzM2Y5ZWQ4YjQ4",
       "categoria": "Escuelas",
-      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "descripcion": "Con la nueva Mochila Escolar Fotorama Tortugas Ninja podrás acaparar las miradas. Se encargará de brindarte un estilo de autenticidad única,",
       "id": 8
     },
     {
       "nombre": "Libreta Norma kiut raya",
       "precio": 20,
-      "imagen": "./assets/img/productos/Escolar/libreta-norma.jpg",
+      "imagen": "https://www.officedepot.com.mx/medias/73833.jpg-1200ftw?context=bWFzdGVyfHJvb3R8MzUzMzc4fGltYWdlL2pwZWd8aDVhL2gzZC8xMTU0MTcyMTY0NTA4Ni83MzgzMy5qcGdfMTIwMGZ0d3w5ZDRmOTlkYTJhN2FjNDJmOWE4NzAyODkyODc1YzM2Mjg1Nzg5NmM4ZDFkNGEyNmE4YzAzMDNiMDExMjAzMTk2",
       "categoria": "Escuelas",
-      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "descripcion": "Con el Cuaderno Argollado KIUT Forever 548974 conseguirás una herramienta de excelencia que te facilitará plasmar anotaciones y pensamientos.",
       "id": 9
     },
     {
       "nombre": "Laptop hp ryzen 5",
       "precio": 19900,
-      "imagen": "./assets/img/productos/Escolar/laptop-hp.jpg",
+      "imagen": "https://www.officedepot.com.mx/medias/100157216.jpg-1200ftw?context=bWFzdGVyfHJvb3R8MzI1NTM3fGltYWdlL2pwZWd8aGI1L2g3Zi8xMjAyNDc3OTE0NTI0Ni8xMDAxNTcyMTYuanBnXzEyMDBmdHd8Mzk1ZDA3NmY0MDFhMmZlMjM1NGQ4MDk2MGRmOTY0NjMzNjNiYzRiZDY5OTMwYjI0NTY2OWI2NTg4MWU2YTU1MA",
       "categoria": "Escuelas",
-      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "descripcion": "Garantiza alta productividad en cualquier tarea con ayuda de la nueva Laptop HP 15-fc0000la. Te mostrará la manera correcta para impulsar tu actividad",
       "id": 10
     },
     {
       "nombre": "Lápices de colores maped",
       "precio": 154,
-      "imagen": "./assets/img/productos/Escolar/lapices-de-colores.jpg",
+      "imagen": "https://www.officedepot.com.mx/medias/100039332.jpg-1200ftw?context=bWFzdGVyfHJvb3R8NDQ4MTcyfGltYWdlL2pwZWd8aGI3L2hlNi8xMDE2MDI2ODY0MDI4Ni8xMDAwMzkzMzIuanBnXzEyMDBmdHd8ODNkYThjZDk4YWQwZjczMDIwMDNiMjc5OTZjOTFjZGZkNDM3ZDQ3NDYzZTM3YjFiYjBlOTk4NTllYjZhYjgyMQ",
       "categoria": "Escuelas",
-      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "descripcion": "Deja fluir tu imaginación y demuestra tus mejores talentos con los tonos brillantes de los nuevos Lápices de Colores Maped Color Peps 4mm.",
       "id": 11
     },
     {
       "nombre": "Lápiz adhesivo pritt 22g",
       "precio": 61,
-      "imagen": "./assets/img/productos/Escolar/lapiz-adhesivo.jpg",
+      "imagen": "https://www.officedepot.com.mx/medias/7259.jpg-1200ftw?context=bWFzdGVyfHJvb3R8NTAzMzk1fGltYWdlL2pwZWd8aDJhL2hiOC8xMDAzOTk1MzQyNDQxNC5qcGd8ZjBmM2Q2MjkxNzJlNWIwOTQ5Y2Y5OTllZDE4Mjk3MzA1OTgwZGI1MDMwYmVlZDE3MjdjMWQ2YzkzNWRhN2VlOQ",
       "categoria": "Escuelas",
-      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "descripcion": "El Lápiz Adhesivo Pritt es el clásico escolar más eficiente y seguro para pegar diversos materiales de una manera fácil y limpia.",
       "id": 12
     },
     {
       "nombre": "Lápiz carbón derwent",
       "precio": 110,
-      "imagen": "./assets/img/productos/Arte/lapiz-carbon.jpg",
+      "imagen": "https://www.officedepot.com.mx/medias/74105.gif-1200ftw?context=bWFzdGVyfHJvb3R8NTY1MjB8aW1hZ2UvanBlZ3xoYmIvaDQxLzk0MjUwMDI4MjM3MTAuanBnfGUzNDEzMWNjZTNmYzdhNTk2MmVkOGU5MzA4YjVjNTViNGMxMzEwM2YzNzMzNmNjMDg1Yzk0MTQ2YTA3YjE0NjI",
       "categoria": "Artes",
-      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "descripcion": "Pigmento perfecto para tu arte con el Carboncillo Rodin ATL, un material de uso profesional que permite un trazado suave y tan concentrado",
       "id": 13
     },
     {

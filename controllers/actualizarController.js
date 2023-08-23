@@ -7,7 +7,7 @@ const obtenerInformacion = async () => {
     const id = url.searchParams.get("id");
 
     if (id === null) {
-        window.location.href = "../screens/error.html";
+        window.location.href = "/E-commerce/screens/error.html";
         console.error(id);
     };
 
@@ -29,7 +29,7 @@ const obtenerInformacion = async () => {
             throw new Error();
         }
     } catch (error){
-        window.location.href ="../screens/error.html";
+        window.location.href ="/E-commerce/screens/error.html";
     }
 
 
@@ -53,7 +53,7 @@ formulArio.addEventListener("submit", (e) =>{
         const mensajeAct = document.getElementById('act-completado');
         mensajeAct.innerHTML = 'producto actualizado con éxito';
         mensajeAct.style.display = 'block';
-        window.location.href = '../screens/admin.html';
+        window.location.href = '/E-commerce/screens/admin.html';
             setTimeout(function(){formulario.submit()}, 2000);
     }).catch((error)=>console.error(error));
 });
