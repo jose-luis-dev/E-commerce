@@ -18,7 +18,7 @@ function validaInput(input){
         input.parentElement.querySelector('.input-mensaje-error').innerHTML = '';  
     }else{
         input.parentElement.classList.add('form-cont_input-label--invalid');
-        input.parentElement.querySelector('.input-mensaje-erro').innerHTML = mostrarMensajeError(tipoEntrada, input);
+        input.parentElement.querySelector('.input-mensaje-error').innerHTML = mostrarMensajeError(tipoEntrada, input);
     }
 }
 
@@ -27,15 +27,15 @@ function validaTextarea(textarea){
     const maxLength = parseInt(textarea.getAttribute('maxlength'));
     const contenido = textarea.value.trim();
 
-    if(contenido.lengt >= minLength && contenido.length <= maxLength ){
+    if (contenido.length >= minLength && contenido.length <= maxLength) {
         textarea.parentElement.classList.remove('form-cont_textarea-label--invalid');
-        input.parentElement.querySelector('.textarea-mensaje.error').innerHTML = '';
-    }else if(contenido === ''){
+        textarea.parentElement.querySelector('.textarea-mensaje-error').innerHTML = '';
+    } else if (contenido === '') {
         textarea.parentElement.classList.add('form-cont_textarea-label--invalid');
-        input.parentElement.querySelector('.textarea-mensaje.error').innerHTML = 'Este campo mensaje no puede estar vacío';
-    }else{
+        textarea.parentElement.querySelector('.textarea-mensaje-error').innerHTML = 'Este campo mensaje no puede estar vacío';
+    } else {
         textarea.parentElement.classList.add('form-cont_textarea-label--invalid');
-        textarea.parentElement.querySelector('.textarea-mensaje.error').innerHTML = `Tu mensaje debe contener entre ${minLength} y ${maxLength} caracteres`;
+        textarea.parentElement.querySelector('.textarea-mensaje-error').innerHTML = `Tu mensaje debe contener entre ${minLength} y ${maxLength} caracteres`;
     }
 }
 
