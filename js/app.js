@@ -1,5 +1,7 @@
 function irOfertas() {
     const oferta = document.getElementById('ofertas');
+
+    
     const seccionOferta = document.getElementById('seccion-escuela');
 
     oferta.addEventListener('click', function(e){
