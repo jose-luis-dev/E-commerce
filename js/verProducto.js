@@ -35,7 +35,7 @@ function productoSimilares(nombreProducto, precio, imgUrl, categoria, id) {
     <img src="${imgUrl}" alt="producto" />
     <p class="listado_item_nombre">${nombreProducto}</p>
     <strong class="listado_item_precio">$ ${precio}</strong>
-    <a href="../screens/producto.html?id=${id}?${nombreProducto}" class="listado_item_link">Ver producto</a>
+    <a href="/E-commerce/screens/producto.html?id=${id}?${nombreProducto}" class="listado_item_link">Ver producto</a>
     `;
     listaCardSim.innerHTML = contenidoSim;
     return listaCardSim;

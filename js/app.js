@@ -26,7 +26,7 @@ function verProductos(){
         verTodos[index].addEventListener('click',(e)=>{
             e.preventDefault();
             window.location.reload();
-            window.location.href = '../screens/productos.html';
+            window.location.href = '/E-commerce/screens/productos.html';
         })
     }
 }

@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <img src="${imgUrl}" alt="producto" />
       <p class="oficinas--oficina_nombre">${nombreProducto}</p>
       <strong class="oficinas--oficina_precio">$ ${precio}</strong>
-      <a href="../screens/producto.html?id=${id}?${nombreProducto}" class="oficinas-oficina_link">Ver producto</a>
+      <a href="/E-commerce/screens/producto.html?id=${id}?${nombreProducto}" class="oficinas-oficina_link">Ver producto</a>
       `;
       listaCard.innerHTML = contenido;
       return listaCard;

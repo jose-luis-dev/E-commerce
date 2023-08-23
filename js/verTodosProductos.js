@@ -12,7 +12,7 @@ const verTodoProductos = (nombreProducto, precio, imagenUrl, categoria, id) => {
         <article class="info-items">
             <p class="info-items_nombre">${nombreProducto}</p>
             <strong class="info-items_precio">$ ${precio}</strong>
-            <a href="../screens/producto.html?id=${id}?${nombreProducto}" class="info-items_link">Ver producto</a>
+            <a href="/E-commerce/screens/producto.html?id=${id}?${nombreProducto}" class="info-items_link">Ver producto</a>
         </article>
     `;
     lista.innerHTML = contenido;
