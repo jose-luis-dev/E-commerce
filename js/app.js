@@ -14,7 +14,7 @@ function irLogin(){
 
     btnLogin.addEventListener('click',(e) =>{
         e.preventDefault();
-        window.location.href = '../screens/login.html';
+        window.location.href = '/E-commerce/screens/login.html';
     })
 }
 irLogin();

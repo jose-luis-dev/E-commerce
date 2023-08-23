@@ -1,172 +1,172 @@
 {
-    "usuarios": [
-      {
-        "id": 1,
-        "nombre": "admin",
-        "email": "admin@gmail.com",
-        "contrasena": "1234"
-      },
-      {
-        "id": 2,
-        "nombre": "admin1",
-        "email": "admin1@gmail.com",
-        "contrasena": "12345"
-      },
-      {
-        "email": "luiskrad@gmail.com",
-        "contrasena": "123456",
-        "id": "8ae185f2-3448-4369-b9e3-b554736149ef"
-      },
-      {
-        "email": "luiskrad@gmail.com",
-        "contrasena": "12121",
-        "id": "ce09ccfd-0eb3-4ef7-83b6-beb5dd233d63"
-      }
-    ],
-    "productos": [
-      {
-        "nombre": "Organizador para Escritorio",
-        "precio": 59.9,
-        "imagen": "./assets/img/productos/Oficina/Imagen_1.jpeg",
-        "categoria": "Oficinas",
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
-        "id": 1
-      },
-      {
-        "nombre": "Folder Carta de Plástico.",
-        "precio": 26,
-        "imagen": "./assets/img/productos/Oficina/Imagen_2.jpeg",
-        "categoria": "Oficinas",
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
-        "id": 2
-      },
-      {
-        "nombre": "Silla de Oficina",
-        "precio": 1599,
-        "imagen": "./assets/img/productos/Oficina/silla_oficina.png",
-        "categoria": "Oficinas",
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
-        "id": 3
-      },
-      {
-        "nombre": "Gomas de Borrar Pelikan",
-        "precio": 49,
-        "imagen": "./assets/img/productos/oficina/gomas.jpeg",
-        "categoria": "Oficinas",
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
-        "id": 4
-      },
-      {
-        "nombre": "Porta Clips Magnético",
-        "precio": 35,
-        "imagen": "./assets/img/productos/Oficina/portaClips.jpeg",
-        "categoria": "Oficinas",
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
-        "id": 5
-      },
-      {
-        "nombre": "Bote de Basura",
-        "precio": 300,
-        "imagen": "https://www.officedepot.com.mx/medias/38309.jpg-1200ftw?context=bWFzdGVyfHJvb3R8NDIyNjMzfGltYWdlL2pwZWd8aGZjL2hmZC8xMDc0NDgyNTMxNTM1OC8zODMwOS5qcGdfMTIwMGZ0d3wxMTQxMjJmZDE4MTg1ZDM0YzI4ZjdiNjFkZGJhMDdhZjMxYjQ1NGI5MmM0MWQxMjdhMmEwYmYwMjNiMWMyNWQ5",
-        "categoria": "Oficinas",
-        "descripcion": "Con el Bote de Basura Office Depot Mentro Mesh trabaja con más rapidez, organización y limpieza, pues te ofrece un espacio especializado .",
-        "id": 6
-      },
-      {
-        "nombre": "Mochila escolar barbie",
-        "precio": 725,
-        "imagen": "./assets/img/productos/Escolar/mochila-escolar.jpg",
-        "categoria": "Escuelas",
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
-        "id": 7
-      },
-      {
-        "nombre": "Mochila miquelrius puppies",
-        "precio": 729,
-        "imagen": "./assets/img/productos/Escolar/mochila-koala.jpg",
-        "categoria": "Escuelas",
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
-        "id": 8
-      },
-      {
-        "nombre": "Libreta Norma kiut raya",
-        "precio": 20,
-        "imagen": "./assets/img/productos/Escolar/libreta-norma.jpg",
-        "categoria": "Escuelas",
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
-        "id": 9
-      },
-      {
-        "nombre": "Laptop hp ryzen 5",
-        "precio": 19900,
-        "imagen": "./assets/img/productos/Escolar/laptop-hp.jpg",
-        "categoria": "Escuelas",
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
-        "id": 10
-      },
-      {
-        "nombre": "Lápices de colores maped",
-        "precio": 154,
-        "imagen": "./assets/img/productos/Escolar/lapices-de-colores.jpg",
-        "categoria": "Escuelas",
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
-        "id": 11
-      },
-      {
-        "nombre": "Lápiz adhesivo pritt 22g",
-        "precio": 61,
-        "imagen": "./assets/img/productos/Escolar/lapiz-adhesivo.jpg",
-        "categoria": "Escuelas",
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
-        "id": 12
-      },
-      {
-        "nombre": "Lápiz carbón derwent",
-        "precio": 110,
-        "imagen": "./assets/img/productos/Arte/lapiz-carbon.jpg",
-        "categoria": "Artes",
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
-        "id": 13
-      },
-      {
-        "nombre": "Block de arte Doarts",
-        "precio": 143,
-        "imagen": "./assets/img/productos/Arte/block-de-arte.jpg",
-        "categoria": "Artes",
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
-        "id": 14
-      },
-      {
-        "nombre": "Pintura acuarela Pentel",
-        "precio": 416,
-        "imagen": "./assets/img/productos/Arte/pintura-acuarela.jpg",
-        "categoria": "Artes",
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
-        "id": 15
-      },
-      {
-        "nombre": "Pintura acuarela ALT estuche",
-        "precio": 380,
-        "imagen": "./assets/img/productos/Arte/pintura-acuarela-atl-estuche.jpg",
-        "categoria": "Artes",
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
-        "id": 16
-      },
-      {
-        "nombre": "Caballete de mesa ",
-        "precio": 345,
-        "imagen": "./assets/img/productos/Arte/caballete-de-mesa.jpg",
-        "categoria": "Artes",
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
-        "id": 17
-      },
-      {
-        "nombre": "Juego de pinceles",
-        "precio": 290,
-        "imagen": "./assets/img/productos/Arte/juego-de-pinceles.jpg",
-        "categoria": "Artes",
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
-        "id": 18
-      }
-    ]
-  }
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "admin",
+      "email": "admin@gmail.com",
+      "contrasena": "1234"
+    },
+    {
+      "id": 2,
+      "nombre": "admin1",
+      "email": "admin1@gmail.com",
+      "contrasena": "12345"
+    },
+    {
+      "email": "luiskrad@gmail.com",
+      "contrasena": "123456",
+      "id": "8ae185f2-3448-4369-b9e3-b554736149ef"
+    },
+    {
+      "email": "luiskrad@gmail.com",
+      "contrasena": "12121",
+      "id": "ce09ccfd-0eb3-4ef7-83b6-beb5dd233d63"
+    }
+  ],
+  "productos": [
+    {
+      "nombre": "Organizador para Escritorio",
+      "precio": 70,
+      "imagen": "https://www.officedepot.com.mx/medias/100070348.jpg-515ftw?context=bWFzdGVyfHJvb3R8NDcyMTN8aW1hZ2UvanBlZ3xoZDkvaDAwLzExMTY3MDIyMDg4MjIyLzEwMDA3MDM0OC5qcGdfNTE1ZnR3fDBlZDczNzM2Y2E0NmJhMDlhZjVhMGIxMGMxY2I4ZmFhMTBkZWE1MmVkY2QwMThjNDM0ZWZjMDdjNjAwM2FkOTk",
+      "categoria": "Oficinas",
+      "descripcion": "ORGANIZADOS DESKTOP HOLDER. PB",
+      "id": 1
+    },
+    {
+      "nombre": "Folder Carta de Plástico.",
+      "precio": 26,
+      "imagen": "https://www.officedepot.com.mx/medias/80721.jpg-515ftw?context=bWFzdGVyfHJvb3R8MTMxMjA2fGltYWdlL2pwZWd8aDYyL2g2OC85NTgzMzYzNTU1MzU4LmpwZ3xjMTA1NDEwMWVjODFkYWZmNmE2NzM0MzU1ZmE2ZjU3ZDdkY2M0MWJmZDU5MDYyNmQ0Yjc5NTRiODIyMmY4OGE4",
+      "categoria": "Oficinas",
+      "descripcion": "FOLDER RED TOP XR61035 MULTICO",
+      "id": 2
+    },
+    {
+      "nombre": "Silla de Oficina",
+      "precio": 1599,
+      "imagen": "https://www.officedepot.com.mx/medias/24504.png-1200ftw?context=bWFzdGVyfHJvb3R8NTYxMDk0fGltYWdlL3BuZ3xoYmUvaDUyLzk3MjMwMjAwMTc2OTQucG5nfDgzMTlkMDNkYzc0MGJjMWI4ODEyNGNjZmExYTM2NTAwMTVmYTdiOTkzYmMzM2E3YjQ1NTEzMDgwZmI0M2Q2NmI",
+      "categoria": "Oficinas",
+      "descripcion": "La Silla Ejecutiva Red Top NY es el accesorio que estabas buscando para complementar tu espacio de trabajo, porque te ofrece máximo confort.",
+      "id": 3
+    },
+    {
+      "nombre": "Gomas de Borrar Pelikan",
+      "precio": 49,
+      "imagen": "https://www.officedepot.com.mx/medias/79088-1200ftw?context=bWFzdGVyfHJvb3R8MjE4OTYxfGltYWdlL2pwZWd8aDI4L2g3Ny85NTA0MDIwNzI1NzkwLmpwZ3w0MWQ1ODhhNjU3OTk0MjY3Zjg0ZGVlZDhiYjU5Nzc1ZDFjMWNkMjdjMTgzZTcwYzE4Y2I5MjM4NDY2ODc2Y2Zj",
+      "categoria": "Oficinas",
+      "descripcion": "La naturalidad de su diseño está listo para que lo puedas usar una y otra vez sin dejar residuos o manchas en tus trabajos profesionales.",
+      "id": 4
+    },
+    {
+      "nombre": "Porta Clips Magnético",
+      "precio": 35,
+      "imagen": "https://www.officedepot.com.mx/medias/100018401.jpg-515ftw?context=bWFzdGVyfHJvb3R8MTEzMzMxfGltYWdlL2pwZWd8aDgzL2hjZS8xMDM0OTc4MzQ0OTYzMC8xMDAwMTg0MDEuanBnXzUxNWZ0d3w4ZGFhNmEwNzgxZmE2MTdjOGVmNWVkNzhjYjBmMGQyNWY2OTNiZGEzY2UwZDBkZmM0ZDMyYzY3YWI4NTU0Yzdm",
+      "categoria": "Oficinas",
+      "descripcion": "PORTA CLIPS TRASLUCIDO",
+      "id": 5
+    },
+    {
+      "nombre": "Bote de Basura",
+      "precio": 300,
+      "imagen": "https://www.officedepot.com.mx/medias/38309.jpg-1200ftw?context=bWFzdGVyfHJvb3R8NDIyNjMzfGltYWdlL2pwZWd8aGZjL2hmZC8xMDc0NDgyNTMxNTM1OC8zODMwOS5qcGdfMTIwMGZ0d3wxMTQxMjJmZDE4MTg1ZDM0YzI4ZjdiNjFkZGJhMDdhZjMxYjQ1NGI5MmM0MWQxMjdhMmEwYmYwMjNiMWMyNWQ5",
+      "categoria": "Oficinas",
+      "descripcion": "Con el Bote de Basura Office Depot Mentro Mesh trabaja con más rapidez, organización y limpieza, pues te ofrece un espacio especializado .",
+      "id": 6
+    },
+    {
+      "nombre": "Mochila escolar barbie",
+      "precio": 725,
+      "imagen": "./assets/img/productos/Escolar/mochila-escolar.jpg",
+      "categoria": "Escuelas",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "id": 7
+    },
+    {
+      "nombre": "Mochila miquelrius puppies",
+      "precio": 729,
+      "imagen": "./assets/img/productos/Escolar/mochila-koala.jpg",
+      "categoria": "Escuelas",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "id": 8
+    },
+    {
+      "nombre": "Libreta Norma kiut raya",
+      "precio": 20,
+      "imagen": "./assets/img/productos/Escolar/libreta-norma.jpg",
+      "categoria": "Escuelas",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "id": 9
+    },
+    {
+      "nombre": "Laptop hp ryzen 5",
+      "precio": 19900,
+      "imagen": "./assets/img/productos/Escolar/laptop-hp.jpg",
+      "categoria": "Escuelas",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "id": 10
+    },
+    {
+      "nombre": "Lápices de colores maped",
+      "precio": 154,
+      "imagen": "./assets/img/productos/Escolar/lapices-de-colores.jpg",
+      "categoria": "Escuelas",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "id": 11
+    },
+    {
+      "nombre": "Lápiz adhesivo pritt 22g",
+      "precio": 61,
+      "imagen": "./assets/img/productos/Escolar/lapiz-adhesivo.jpg",
+      "categoria": "Escuelas",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "id": 12
+    },
+    {
+      "nombre": "Lápiz carbón derwent",
+      "precio": 110,
+      "imagen": "./assets/img/productos/Arte/lapiz-carbon.jpg",
+      "categoria": "Artes",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "id": 13
+    },
+    {
+      "nombre": "Block de arte Doarts",
+      "precio": 143,
+      "imagen": "./assets/img/productos/Arte/block-de-arte.jpg",
+      "categoria": "Artes",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "id": 14
+    },
+    {
+      "nombre": "Pintura acuarela Pentel",
+      "precio": 416,
+      "imagen": "./assets/img/productos/Arte/pintura-acuarela.jpg",
+      "categoria": "Artes",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "id": 15
+    },
+    {
+      "nombre": "Pintura acuarela ALT estuche",
+      "precio": 380,
+      "imagen": "./assets/img/productos/Arte/pintura-acuarela-atl-estuche.jpg",
+      "categoria": "Artes",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "id": 16
+    },
+    {
+      "nombre": "Caballete de mesa ",
+      "precio": 345,
+      "imagen": "./assets/img/productos/Arte/caballete-de-mesa.jpg",
+      "categoria": "Artes",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "id": 17
+    },
+    {
+      "nombre": "Juego de pinceles",
+      "precio": 290,
+      "imagen": "./assets/img/productos/Arte/juego-de-pinceles.jpg",
+      "categoria": "Artes",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "id": 18
+    }
+  ]
+}
