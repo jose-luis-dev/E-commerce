@@ -131,42 +131,50 @@
     {
       "nombre": "Block de arte Doarts",
       "precio": 143,
-      "imagen": "./assets/img/productos/Arte/block-de-arte.jpg",
+      "imagen": "https://www.officedepot.com.mx/medias/58791.jpg-515ftw?context=bWFzdGVyfHJvb3R8OTcxMzZ8aW1hZ2UvanBlZ3xoYzYvaDFmLzk4NzcyNDkzOTI2NzAuanBnfGVlODI0M2FiN2JkMmRkN2I2MDdmYzYzYmY5YTUwNjcyYjJlODk3NjQ0ZWE1MzY0YTFkOTVlZjExOWQwZmUwYjk",
       "categoria": "Artes",
-      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "descripcion": "Realiza increíbles obras de arte y diviértete descubriendo tu talento con el Block Marquilla para Dibujo Norma.",
       "id": 14
     },
     {
       "nombre": "Pintura acuarela Pentel",
       "precio": 416,
-      "imagen": "./assets/img/productos/Arte/pintura-acuarela.jpg",
+      "imagen": "https://www.officedepot.com.mx/medias/74016.gif-515ftw?context=bWFzdGVyfHJvb3R8MzA0MTJ8aW1hZ2UvanBlZ3xoNGQvaDM3Lzk0MjQ5OTU2NDc1MTguanBnfDA5NDBkYWM3MjhkZDk4MDE4ZjYyZDRjNDcwZjI4OTU5MjgwOWQ4MmI5Mjk4ZjViODE0NGVmNDA4Y2UxNjZkY2Q",
       "categoria": "Artes",
-      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "descripcion": "Consigue un acabado único para tus obras artísticas con la Juego de Acuarelas Semiprofesionales Rodart, un kit de 12 tonos.",
       "id": 15
     },
     {
-      "nombre": "Pintura acuarela ALT estuche",
+      "nombre": "Juego de Pintura Pastel ",
       "precio": 380,
-      "imagen": "./assets/img/productos/Arte/pintura-acuarela-atl-estuche.jpg",
+      "imagen": "https://www.officedepot.com.mx/medias/74104.gif-1200ftw?context=bWFzdGVyfHJvb3R8MTI0NDI1fGltYWdlL2dpZnxoMmEvaGYwLzkxMzY1NzI1NjM0ODYuZ2lmfGFlY2Q0OTMxNDEyYjMxN2M4NGI0NGY1MTQyNzg2ZTUwNGU3Yjk3OGM2ODYxZDRiZWFkYzhmMDZiM2JlODg5ZWQ",
       "categoria": "Artes",
-      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "descripcion": "Plasma auténticas obras de arte con fusiones perfectas de color usando la Juego de Pintura Pastel al Aceite en Barra Profesional Rodar.",
       "id": 16
     },
     {
       "nombre": "Caballete de mesa ",
       "precio": 345,
-      "imagen": "./assets/img/productos/Arte/caballete-de-mesa.jpg",
+      "imagen": "https://www.officedepot.com.mx/medias/74028.jpg-1200ftw?context=bWFzdGVyfHJvb3R8MjI2ODUxfGltYWdlL2pwZWd8aDdiL2gyMS8xMDg1NjYyNjM1NjI1NC83NDAyOC5qcGdfMTIwMGZ0d3xhYzhmNWJmZDM4ZDcyOTY5MjRiZDIzYjFkN2ZmMjMwNmIwNGJjMjFjYjViNGFlMTVmZGY5YzJmYTc5ZmU2MDEx",
       "categoria": "Artes",
-      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "descripcion": "Asegura la estabilidad y equilibrio de tus lienzos mientras los llenas de color con las técnicas que domines o quieras poner en práctica.",
       "id": 17
     },
     {
       "nombre": "Juego de pinceles",
       "precio": 290,
-      "imagen": "./assets/img/productos/Arte/juego-de-pinceles.jpg",
+      "imagen": "https://www.officedepot.com.mx/medias/100081549.jpg-515ftw?context=bWFzdGVyfHJvb3R8MTAxNjgzfGltYWdlL2pwZWd8aDE4L2hiMy8xMTA3ODg1ODgzMzk1MC8xMDAwODE1NDkuanBnXzUxNWZ0d3w5ODY3ODdmZWNiZDcwOWNjNjkyNzdmNjlkY2YxMjQyOTMyYThhZjg5MzIxYWE1N2Q2NDExMTFiNjBkNzU4YzMz",
       "categoria": "Artes",
-      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores sint recusandae magni pariatur obcaecati voluptatibus amet sit eos repellendus.",
+      "descripcion": "El Estuche de Pinceles Sintéticos Daler y Rawne es la elección perfecta para aquellas personas que se encuentren en la búsqueda de pinceles de calidad",
       "id": 18
+    },
+    {
+      "nombre": "DIAMANTINA GEL 30 ML AZUL",
+      "precio": 23,
+      "imagen": "https://www.officedepot.com.mx/medias/100082007.jpg-1200ftw?context=bWFzdGVyfHJvb3R8NDY3OTU2fGltYWdlL2pwZWd8aGM5L2g2MS8xMDc2MzMyMjM5MjYwNi8xMDAwODIwMDcuanBnXzEyMDBmdHd8OWRhNWE1ZjVlODcwZDk2NTEwYjhmNzE5NmE1NTE4Y2MyNWY1MWYyZmU0ZjY2M2Y4YTA4NTc0NjQxM2E0YWFlNw",
+      "categoria": "Escuelas",
+      "descripcion": "DIAMANTINA GEL 30 ML AZUL PAS",
+      "id": "eaa8eb33-1c40-490a-ac30-fe878af945e5"
     }
   ]
 }
