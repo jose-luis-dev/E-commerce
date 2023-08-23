@@ -11,16 +11,6 @@
       "nombre": "admin1",
       "email": "admin1@gmail.com",
       "contrasena": "12345"
-    },
-    {
-      "email": "luiskrad@gmail.com",
-      "contrasena": "123456",
-      "id": "8ae185f2-3448-4369-b9e3-b554736149ef"
-    },
-    {
-      "email": "luiskrad@gmail.com",
-      "contrasena": "12121",
-      "id": "ce09ccfd-0eb3-4ef7-83b6-beb5dd233d63"
     }
   ],
   "productos": [
@@ -159,22 +149,6 @@
       "categoria": "Artes",
       "descripcion": "Asegura la estabilidad y equilibrio de tus lienzos mientras los llenas de color con las técnicas que domines o quieras poner en práctica.",
       "id": 17
-    },
-    {
-      "nombre": "Juego de pinceles",
-      "precio": 290,
-      "imagen": "https://www.officedepot.com.mx/medias/100081549.jpg-515ftw?context=bWFzdGVyfHJvb3R8MTAxNjgzfGltYWdlL2pwZWd8aDE4L2hiMy8xMTA3ODg1ODgzMzk1MC8xMDAwODE1NDkuanBnXzUxNWZ0d3w5ODY3ODdmZWNiZDcwOWNjNjkyNzdmNjlkY2YxMjQyOTMyYThhZjg5MzIxYWE1N2Q2NDExMTFiNjBkNzU4YzMz",
-      "categoria": "Artes",
-      "descripcion": "El Estuche de Pinceles Sintéticos Daler y Rawne es la elección perfecta para aquellas personas que se encuentren en la búsqueda de pinceles de calidad",
-      "id": 18
-    },
-    {
-      "nombre": "DIAMANTINA GEL 30 ML AZUL",
-      "precio": 23,
-      "imagen": "https://www.officedepot.com.mx/medias/100082007.jpg-1200ftw?context=bWFzdGVyfHJvb3R8NDY3OTU2fGltYWdlL2pwZWd8aGM5L2g2MS8xMDc2MzMyMjM5MjYwNi8xMDAwODIwMDcuanBnXzEyMDBmdHd8OWRhNWE1ZjVlODcwZDk2NTEwYjhmNzE5NmE1NTE4Y2MyNWY1MWYyZmU0ZjY2M2Y4YTA4NTc0NjQxM2E0YWFlNw",
-      "categoria": "Escuelas",
-      "descripcion": "DIAMANTINA GEL 30 ML AZUL PAS",
-      "id": "eaa8eb33-1c40-490a-ac30-fe878af945e5"
     }
   ]
 }
