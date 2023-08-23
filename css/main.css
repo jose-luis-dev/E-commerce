@@ -1,0 +1,284 @@
+@import url('reset.css');
+@import url('variables.css');
+@import url('header.css');
+@import url('footer.css');
+@import url('scrollStyle.css');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: var(--fuente-principal);
+    box-sizing: border-box;
+    background-color: var(--color-fondo-claro);
+    margin: 0;
+    padding: 0;
+}
+/*Cabecera*/
+header.header__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header__banner{
+    background-image: url("../assets/img/BannerPapeleria.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-attachment:scroll;
+    display: flex;
+    color: black;
+    height: 352px;
+}
+.header__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin: 2rem 5rem;
+}
+.header__infoTitulo{
+    font-size: 2.5em;
+    font-family: var(--fuente-titulos);
+    font-weight: bold;
+}
+.header__info_button{
+    width: 97px;
+    background-color: var(--color-azul);
+    font-family: var(--fuente-botones);
+    color: var(--color-blanco);
+    text-align: center;
+    text-decoration: none;
+    padding: 1.5rem;
+    transition: all 0.2s ease;
+    border-radius: 15px;
+}
+
+.header__info_button:active{
+    transform: scale(0.9);
+}
+
+/*Seccion de productos*/
+main{
+    margin: var(--espaciado-lados);
+}
+
+.contenido-principal{
+    margin-top: 3rem;
+}
+section.oficinas, .escuelas, .artes{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 0.5rem;
+    scroll-margin-top: 3rem;
+}
+article.oficina--titulo-detalle,
+.escuela--titulo-detalle,
+.arte--titulo-detalle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li.oficinas--oficina, .artes--arte, .escuelas--escuela{
+    justify-content: center;
+    align-items: center;
+}
+
+li.oficinas--oficina p,
+.artes--arte p,
+.escuelas--escuela p {
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+.oficina--titulo-detalle > h2, .escuela--titulo-detalle >h2,
+.arte--titulo-detalle >h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: var(--fuente-titulos);
+}
+.oficina--titulo-detalle > a, .escuela--titulo-detalle > a,
+.arte--titulo-detalle >a{
+    display: flex;
+    align-items: center;
+    color: var(--color-azul);
+    font-family: var(--fuente-botones);
+    text-decoration: none;
+    gap: .5rem;
+    font-weight: bold;
+}
+.flecha{
+    color: var(--color-azul);
+    font-weight: bold;
+}
+.oficinas--listado, .escuelas--listado,.artes--listado{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.9em;
+    transition: .5s;
+
+}
+.oficinas--oficina, .escuelas--escuela, .artes--arte{
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 20px;
+    gap: 8px;
+    transition: .5s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.oficinas--oficina > img, .escuelas--escuela > img, .artes--arte >img{
+    width: 160px;
+    height: 160px;
+}
+.oficinas--oficina_nombre, .escuelas--escuela_nombre, .artes--arte_nombre{
+    font-weight: 500;
+}
+.oficinas--oficina_precio, .escuelas--escuela_precio, .artes--arte_precio{
+    font-weight: bold;
+}
+.oficinas-oficina_link, .escuelas-escuela_link, .artes-arte_link{
+    color: var(--color-azul);
+    text-decoration: none;
+    font-weight: 700;
+}
+.oficinas--oficina:hover, .escuelas--escuela:hover, .artes--arte:hover{
+    transform: scale(105%);
+    transition: .5s;
+    box-shadow: 10px 10px 30px #bebebe, -10px -10px 30px #ffffff;
+}
+.oficinas-oficina_link:hover, .artes-arte_link:hover, .escuelas-escuela_link:hover{
+    color: #A11AD8;
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .oficinas--listado, .artes--listado, .escuelas--listado{
+        width: calc(100% + 2%);
+        gap: 1rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .encabezado{
+        height: 100%;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    main{
+        margin: var(--espaciado-lados-t);
+    }
+    .encabezado{
+        height: 100%;
+        justify-content: center;
+        background-position: center;
+        padding: var(--espaciado-lados-t);
+    }
+    .encabezado--info{
+        align-items: center;
+        justify-content: center;
+        margin: 3rem 0rem;
+    }
+
+    .oficinas--listado, .artes--listado, .escuelas--listado{
+        justify-content: space-around;
+        gap: 1rem;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    main{
+        margin: var(--espaciado-lados-ac);
+    }
+    .encabezado{
+        height: 100%;
+        justify-content: center;
+        background-position: center;
+        padding: var(--espaciado-lados-ac);
+    }
+    .encabezado--info{
+        align-items: center;
+        justify-content: center;
+        margin: 3rem 0rem;
+    }
+    .encabezado--info_titulo{
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .encabezado--info_texto{
+        text-align: center;
+        font-size: .5em;
+    }
+    .encabezado--info_boton{
+        width: 100%;
+    }
+    .oficinas--listado, .artes--listado, .escuelas--listado{
+        justify-content: space-around;
+        gap: 1rem;
+    }
+    .header__infoTitulo{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 399px){   
+    .oficinas--oficina, .escuelas--escuela, .artes--arte{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .oficinas--oficina > img, .escuelas--escuela > img, .artes--arte > img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    main{
+        margin: var(--espaciado-lados-c);
+    }
+    .header__banner{
+        height: 100%;
+        justify-content: center;
+        background-position: center;
+        padding: var(--espaciado-lados-c);
+    }
+    .header__info{
+        align-items: center;
+        justify-content: center;
+        margin: 3rem 0rem;
+    }
+    .header__infoTitulo{
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .header__infoTexto{
+        text-align: justify;
+    }
+    .header__info_button{
+        width: 50%;
+        position: relative;
+        right: 50px;
+    }
+    .oficina--titulo-detalle, .escuela--titulo-detalle, .arte--titulo-detalle{
+        flex-direction: column;
+        justify-content: center !important;
+        gap: 1rem;
+    }
+    .oficina--listado, .escuela--listado, .arte--listado{
+        justify-content: space-around;
+        gap: 1rem;
+    }
+}

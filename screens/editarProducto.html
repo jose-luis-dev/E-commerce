@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editar Producto</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/producto/editar-producto.css">
+</head>
+
+<body>
+  <header class="header__container">
+    <nav class="header__content navegacion">
+      <!-- Logo -->
+      <a class="logo_Pagina" href="../index.html">
+        <img class="logoHome" src="../assets/img/Logo_Empresa.png" alt="Logo PapeleriaArte">
+      </a>
+      <!-- Barra de búsqueda -->
+      <div class="nav-caja--busqueda">
+        <div class="nav-busqueda">
+          <input type="search" name="buscar" id="buscar" placeholder="¿Qué deseas buscar?">
+          <button type="button"><i class="material-symbols-outlined">search</i></button>
+        </div>
+        <div id="resultado" class="nav-resultado" data-filtrado>
+
+        </div>
+      </div>
+      <!-- Botón de administrador -->
+      <button type="button" class="btn-buscar-ocul"><i class="material-symbols-outlined icon-buscar">search</i></button> 
+      <div class="nav-btn_box">
+          <a href="../screens/admin.html" id="login-btn" class="nav-btn_button"><span class="texto-link">Menú Administrador</span><span class="material-symbols-outlined icon-btn">admin_panel_settings</span></a>
+      </div>
+    </nav>
+  </header>
+
+      <!-- sección para editar el producto -->
+  <main class="contenido__principal">
+    <section class="editar-producto">
+        <div class="editar-producto-box">
+            <h2>Editar producto</h2>
+            <form action="productos.html" class="editar-producto_form" data-form>
+                <div class="form-producto_input">
+                    <input type="url" id="url" 
+                      name="url" 
+                      class="form-producto--input inputs" required data-tipo="url">
+                    <label for="url" class="form-producto--label">URL de la imagen</label>
+                    <span class="input-mensaje-error"></span>
+                </div>
+                <div class="form-producto_select">
+                    <select name="categoria" 
+                      id="categoria" 
+                      class="form-producto--select" required data-tipo="categoria">
+                        <option value="" disabled selected></option>
+                        <option value="Oficinas">Oficina</option>
+                        <option value="Escuelas">Escuela</option>
+                        <option value="Artes">Arte</option>
+                    </select>
+                    <label for="categoria" class="form-producto--label">Categoría</label>
+                    <span class="select-mensaje-error"></span>
+                </div>
+                <div class="form-producto_input">
+                    <input type="text" id="nombreProducto" 
+                      name="nombreProducto" 
+                      class="form-producto--input inputs" 
+                      pattern="[\s\S]{3,30}" required data-tipo="nombreProducto"
+                    >
+                    <label for="nombreProducto" class="form-producto--label">Nombre del producto</label>
+                    <span class="input-mensaje-error"></span>
+                </div>
+                <div class="form-producto_input">
+                    <input type="number" id="precio" 
+                      name="precio" 
+                      class="form-producto--input inputs" 
+                      pattern="^[0-9]+$" required  maxlength="15" data-tipo="precio"
+                    >
+                    <label for="precio" class="form-producto--label">Precio del producto</label>
+                    <span class="input-mensaje-error"></span>
+                </div>
+                <div class="form-producto_textarea">
+                    <textarea name="descripcion" 
+                      id="descripcion" cols="30" rows="10" 
+                      class="form-producto--textarea txta" 
+                      maxlength="150" required data-descripcion>
+                    </textarea>
+                    <label for="descripcion" class="form-producto--label">Descripción del producto</label>
+                    <span class="textarea-mensaje-error"></span>
+                </div>
+                <button type="submit" class="form-producto_btn">Actualizar Producto</button>
+            </form>
+            <span id="act-completado" class="act-completado"></span>
+        </div>
+    </section>
+  </main>
+
+  <!--creacion del footer correspondiente a la página-->
+  <footer class="pie">
+    <section class="pie-contenido">
+      <div class="cont-mob">
+        <div class="pie--logo_pie">
+          <img src="../assets/img/LogoPapeleriaArte.png" alt="logo" />
+        </div>
+        <div class="pie--nosotros">
+          <ul class="pie--nosotros_list">
+            <li>Quienes somos</li>
+            <li>Política de privacidad</li>
+            <li>Programa de fidelidad</li>
+            <li>Nuestras tiendas</li>
+            <li>Quiero ser franquiciado</li>
+            <li>Anuncie aquí</li>
+          </ul>
+        </div>
+      </div>
+
+        <!--creacion del footer correspondiente al formulario-->
+      <div class="pie--formulario">
+        <h3>Hable con nosotros</h3>
+        <form action="" id="formularioContacto" class="pie--formulario_cont">
+          <div class="form-cont_input-label">
+            <input type="text" class="form-cont_input-nombre" name="nombre" id="nombre" pattern="[\s\S]{3,40}" required
+              data-tipo="nombre">
+            <label class="form-label" for="nombre">Nombre</label>
+            <span class="input-mensaje-error"></span>
+          </div>
+          <div class="form-cont_textarea-label">
+            <textarea class="form-cont_textarea-mensaje" name="msg" id="msg" maxlength="120" cols="30" rows="10"
+              required></textarea>
+            <label class="form-label" for="msg">Escribe tu mensaje</label>
+            <span class="textarea-mensaje-error"></span>
+          </div>
+          <button type="submit" id="btn-envio" class="btn-enviar">Enviar Mensaje</button>
+        </form>
+        <span id="completado" class="completo"></span>
+      </div>
+    </section>
+  </footer>
+  <section class="pie-final">
+    <article class="subfooter-content">
+      <div class="titulo-desarrolador">
+        <p>Desarrollado por Luis Alvarado - 2023.</p>
+      </div>
+      <div class="redesSociales">
+        <a href="https://linkedin.com/in/jose-alvarado-72620220b" class="social-icon" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/jose-luis-dev" class="social-icon" target="_blank"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </article>
+  </section>
+</body>
+
+</html>
